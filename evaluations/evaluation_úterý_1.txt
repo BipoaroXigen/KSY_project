@@ -1,0 +1,91 @@
+average time: 1.17060329914093
+color task: 1.0832251071929933
+shape task: 1.2579814910888671
+average time of wrong answer: none
+average time of correct answer: 1.17060329914093
+change of task without change of category: none
+change of task with change of category: 1.0755356550216675
+with same task: 1.2753327369689942
+
+average time: 0
+color task: -0.08737819194793683
+shape task: +0.08737819194793706
+average time of wrong answer: none
+average time of correct answer: 0
+change of task without change of category: none
+change of task with change of category: -0.0950676441192626
+with same task: +0.1047294378280641
+
+deviations: 
+   minimal deviation: 0.2508380651473998
+   maximal deviation: 0.64547917842865
+   average deviation: 0.4481586217880249
+color task deviations: 
+   minimal deviation: 0.16345987319946298
+   maximal deviation: 0.2831040859222411
+   average deviation: 0.22328197956085205
+shape task deviations: 
+   minimal deviation: 0.21296567916870113
+   maximal deviation: 0.5581009864807129
+   average deviation: 0.38553333282470703
+average time of wrong answer deviations: 
+   none
+average time of correct answer deviations: 
+   minimal deviation: 0.2508380651473998
+   maximal deviation: 0.64547917842865
+   average deviation: 0.4481586217880249
+change of task without change of category deviations: 
+   none
+change of task with change of category deviations: 
+   minimal deviation: 0.1557704210281372
+   maximal deviation: 0.22811925411224365
+   average deviation: 0.19194483757019043
+with same task deviations: 
+   minimal deviation: 0.21352725028991704
+   maximal deviation: 0.5407497406005859
+   average deviation: 0.37713849544525146
+
+task times: 
+
+color task times: 
+1______1.0272266864776611
+2______1.0690977573394775
+3______1.0337066650390625
+4______1.3663291931152344
+5______0.9197652339935303
+
+shape task times: 
+1______1.3036549091339111
+2______1.0633487701416016
+3______1.045015811920166
+4______1.81608247756958
+5______1.0618054866790771
+
+average times of wrong answer: 
+
+average times of correct answer: 
+1______1.0272266864776611
+2______1.0690977573394775
+3______1.3036549091339111
+4______1.0633487701416016
+5______1.0337066650390625
+6______1.3663291931152344
+7______1.045015811920166
+8______1.81608247756958
+9______1.0618054866790771
+10_____0.9197652339935303
+
+change of task without change of category times: 
+
+change of task with change of category times: 
+1______1.3036549091339111
+2______1.0337066650390625
+3______1.045015811920166
+4______0.9197652339935303
+
+with same task times: 
+1______1.0690977573394775
+2______1.0633487701416016
+3______1.3663291931152344
+4______1.81608247756958
+5______1.0618054866790771
