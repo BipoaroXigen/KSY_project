@@ -53,7 +53,7 @@ class Guy:
         except:
             self.repetitions = 50
 
-        self.results = "results" + self.id + ".txt"
+        self.results = "results/results" + self.id + ".txt"
 
         # prepare view
         # clear old view
