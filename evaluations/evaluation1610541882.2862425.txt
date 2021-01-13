@@ -1,0 +1,76 @@
+average time: 1.0336723327636719
+color task: 0.8107461929321289
+shape task: 1.2565984725952148
+average time of wrong answer: none
+average time of correct answer: 1.0336723327636719
+change of task without change of category: none
+change of task with change of category: 1.255691647529602
+with same task: 0.7171072959899902
+
+time differences: 
+	average time: 0
+	color task: -0.22292613983154297
+	shape task: +0.22292613983154297
+	average time of wrong answer: none
+	average time of correct answer: 0
+	change of task without change of category: none
+	change of task with change of category: +0.22201931476593018
+	with same task: -0.31656503677368164
+
+deviations: 
+	minimal deviation: 0.31656503677368164
+	maximal deviation: 0.5733258724212646
+	average deviation: 0.44494545459747314
+color task deviations: 
+	minimal deviation: 0.09363889694213867
+	maximal deviation: 0.09363889694213867
+	average deviation: 0.09363889694213867
+shape task deviations: 
+	minimal deviation: 0.3503997325897217
+	maximal deviation: 0.3503997325897217
+	average deviation: 0.3503997325897217
+average time of wrong answer deviations: 
+   none
+average time of correct answer deviations: 
+	minimal deviation: 0.31656503677368164
+	maximal deviation: 0.5733258724212646
+	average deviation: 0.44494545459747314
+change of task without change of category deviations: 
+   none
+change of task with change of category deviations: 
+	minimal deviation: 0.3513065576553345
+	maximal deviation: 0.3513065576553345
+	average deviation: 0.3513065576553345
+with same task deviations: 
+	minimal deviation: 0.0
+	maximal deviation: 0.0
+	average deviation: 0.0
+
+task times: 
+
+color task times: 
+	1______0.9043850898742676
+	2______0.7171072959899902
+
+shape task times: 
+	1______0.9061987400054932
+	2______1.6069982051849365
+
+average times of wrong answer: 
+	none
+
+average times of correct answer: 
+	1______0.9061987400054932
+	2______0.9043850898742676
+	3______0.7171072959899902
+	4______1.6069982051849365
+
+change of task without change of category times: 
+	none
+	
+change of task with change of category times: 
+	1______0.9043850898742676
+	2______1.6069982051849365
+
+with same task times: 
+	1______0.7171072959899902

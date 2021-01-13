@@ -128,11 +128,11 @@ class Evaluator:
         i = 1
         for time in array:
             if i < 10:
-                self.f.write("\n" + str(i)+"______" + str(time))
+                self.f.write("\n\t" + str(i)+"______" + str(time))
             else:
-                self.f.write("\n" + str(i)+"_____" + str(time))
+                self.f.write("\n\t" + str(i)+"_____" + str(time))
             i +=1
-        self.f.write("\n")
+        self.f.write("\nnone")
 
     def get_deviation_from_mean(self, array):
 
@@ -150,9 +150,9 @@ class Evaluator:
     def write_deviations(self, array):
         if array:
             devs = self.get_deviation_from_mean(array)
-            self.f.write("\n   minimal deviation: " + str(devs[0]))
-            self.f.write("\n   maximal deviation: " + str(devs[1]))
-            self.f.write("\n   average deviation: " + str(devs[2]))
+            self.f.write("\n\tminimal deviation: " + str(devs[0]))
+            self.f.write("\n\tmaximal deviation: " + str(devs[1]))
+            self.f.write("\n\taverage deviation: " + str(devs[2]))
         else:
             self.f.write("\n   none")
 
@@ -167,14 +167,15 @@ class Evaluator:
         self.f.write("\nwith same task: " + str(self.apx_time_n_change))
 
     def save_differences(self):
-        self.f.write("\n\naverage time: " + str(self.get_difference(self.apx_time)))
-        self.f.write("\ncolor task: " + str(self.get_difference(self.apx_color_time)))
-        self.f.write("\nshape task: " + str(self.get_difference(self.apx_shape_time)))
-        self.f.write("\naverage time of wrong answer: " + str(self.get_difference(self.apx_time_w_falut)))
-        self.f.write("\naverage time of correct answer: " + str(self.get_difference(self.apx_time_n_fault)))
-        self.f.write("\nchange of task without change of category: " + str(self.get_difference(self.apx_time_w_change_n_switch)))
-        self.f.write("\nchange of task with change of category: " + str(self.get_difference(self.apx_time_w_change_w_switch)))
-        self.f.write("\nwith same task: " + str(self.get_difference(self.apx_time_n_change)))
+        self.f.write("\n\ntime differences: ")
+        self.f.write("\n\taverage time: " + str(self.get_difference(self.apx_time)))
+        self.f.write("\n\tcolor task: " + str(self.get_difference(self.apx_color_time)))
+        self.f.write("\n\tshape task: " + str(self.get_difference(self.apx_shape_time)))
+        self.f.write("\n\taverage time of wrong answer: " + str(self.get_difference(self.apx_time_w_falut)))
+        self.f.write("\n\taverage time of correct answer: " + str(self.get_difference(self.apx_time_n_fault)))
+        self.f.write("\n\tchange of task without change of category: " + str(self.get_difference(self.apx_time_w_change_n_switch)))
+        self.f.write("\n\tchange of task with change of category: " + str(self.get_difference(self.apx_time_w_change_w_switch)))
+        self.f.write("\n\twith same task: " + str(self.get_difference(self.apx_time_n_change)))
 
     def save_deviations(self):
         self.f.write("\n\ndeviations: ")

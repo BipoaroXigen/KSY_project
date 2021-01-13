@@ -24,7 +24,7 @@ class Guy:
 
         self.root.mainloop()
 
-    def initial_screen(self):        
+    def initial_screen(self):
         self.text = StringVar()
         self.text.set("test střídání úloh")
 
@@ -38,6 +38,9 @@ class Guy:
 
         self.startButton = Button(self.root, text="start", command=lambda: self.begin(), font=16, width=10, height=3)
         self.startButton.place(relx=0.5, rely=0.5, anchor=CENTER)
+
+        self.help = Label(self.root, text="budou vám ukazovány dva geometrické útvary,\n na horní časti okna uvidíte klíčovou charakteristiku,\n podle které máte vybrat požadovaný útvar\n Útvar vybíráte tak, že stisknete tlačítko pod ním,\n nebo stisknete klávesu A/S/J pro útvar nalevo\n a D/K/L pro útvar napravo.", font=30)
+        self.help.place(relx=0.5, rely=0.8, anchor=CENTER)
         
 
     ### in time if test
@@ -60,7 +63,9 @@ class Guy:
         # self.clear_text()
         self.clear_input()
         self.replace_button()
+        self.help.destroy()
         # show guide
+        # self.text.set("")
 
         # run test
         self.started = TRUE
@@ -224,6 +229,8 @@ class Guy:
             elif event.char == "d":
                 clicked = 1
             elif event.char == "s":
+                clicked = 0 
+            elif event.char == "j":
                 clicked = 0
             elif event.char == "k":
                 clicked = 1 

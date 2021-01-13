@@ -1,0 +1,107 @@
+average time: 1.0412378311157227
+color task: 1.0468265533447265
+shape task: 1.0381329854329426
+average time of wrong answer: none
+average time of correct answer: 1.0412378311157227
+change of task without change of category: 1.0056170225143433
+change of task with change of category: 1.0785348117351532
+with same task: 0.8951407273610433
+
+time differences: 
+   average time: 0
+   color task: +0.005588722229003862
+   shape task: -0.003104845682780022
+   average time of wrong answer: none
+   average time of correct answer: 0
+   change of task without change of category: -0.035620808601379395
+   change of task with change of category: +0.03729698061943054
+   with same task: -0.14609710375467932
+
+deviations: 
+   minimal deviation: 0.22647833824157715
+   maximal deviation: 0.5030157566070557
+   average deviation: 0.3647470474243164
+color task deviations: 
+   minimal deviation: 0.232067060470581
+   maximal deviation: 0.4974270343780518
+   average deviation: 0.3647470474243164
+shape task deviations: 
+   minimal deviation: 0.16901501019795728
+   maximal deviation: 0.21426192919413256
+   average deviation: 0.19163846969604492
+average time of wrong answer deviations: 
+   none
+average time of correct answer deviations: 
+   minimal deviation: 0.22647833824157715
+   maximal deviation: 0.5030157566070557
+   average deviation: 0.3647470474243164
+change of task without change of category deviations: 
+   minimal deviation: 0.1364990472793579
+   maximal deviation: 0.1364990472793579
+   average deviation: 0.1364990472793579
+change of task with change of category deviations: 
+   minimal deviation: 0.19954916834831238
+   maximal deviation: 0.4657187759876251
+   average deviation: 0.33263397216796875
+with same task deviations: 
+   minimal deviation: 0.07483903566996253
+   maximal deviation: 0.08038123448689782
+   average deviation: 0.07761013507843018
+
+task times: 
+
+color task times: 
+   1______1.0937612056732178
+   2______0.8789856433868408
+   3______0.9023728370666504
+   4______0.8147594928741455
+   5______1.5442535877227783
+
+shape task times: 
+   1______1.2523949146270752
+   2______1.1582605838775635
+   3______1.1421160697937012
+   4______1.1917619705200195
+   5______0.9599306583404541
+   6______0.8989520072937012
+   7______0.8691179752349854
+   8______0.9006829261779785
+   9______0.9699797630310059
+
+average times of wrong answer: 
+   none
+
+average times of correct answer: 
+   1______1.2523949146270752
+   2______1.0937612056732178
+   3______1.1582605838775635
+   4______1.1421160697937012
+   5______0.8789856433868408
+   6______1.1917619705200195
+   7______0.9023728370666504
+   8______0.8147594928741455
+   9______0.9599306583404541
+   10_____1.5442535877227783
+   11_____0.8989520072937012
+   12_____0.8691179752349854
+   13_____0.9006829261779785
+   14_____0.9699797630310059
+
+change of task without change of category times: 
+   1______1.1421160697937012
+   2______0.8691179752349854
+
+change of task with change of category times: 
+   1______1.0937612056732178
+   2______1.1582605838775635
+   3______0.8789856433868408
+   4______1.1917619705200195
+   5______0.9023728370666504
+   6______0.9599306583404541
+   7______1.5442535877227783
+   8______0.8989520072937012
+
+with same task times: 
+   1______0.8147594928741455
+   2______0.9006829261779785
+   3______0.9699797630310059
